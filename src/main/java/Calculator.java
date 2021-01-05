@@ -11,6 +11,10 @@ public class Calculator {
         this.dblNum2 = dblNum2;
     }
 
+    public Object addNumbers() {
+        return this.intNum1 + this.intNum2;
+    }
+
 
     /*
      Create a Calculator class. This should have functions for Add, Subtract, Multiply and Divide.
