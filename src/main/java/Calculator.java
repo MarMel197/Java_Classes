@@ -4,9 +4,11 @@ public class Calculator {
     private double dblNum1;
     private double dblNum2;
 
-    public Calculator(int intNum1, int num2){
-        this.int1 = int1;
-        this.int2 = int2;
+    public Calculator(int intNum1, int intNum2, double dblNum1, double dblNum2){
+        this.intNum1 = intNum1;
+        this.intNum2 = intNum2;
+        this.dblNum1 = dblNum1;
+        this.dblNum2 = dblNum2;
     }
 
 
