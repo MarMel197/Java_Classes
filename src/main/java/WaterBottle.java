@@ -7,13 +7,16 @@ public class WaterBottle {
         this.sipDrink = sipDrink;
     }
 
-    public Object takeSip() {
-        if (this.volume > 10){
-            return this.volume - 10;
+    public int takeDrink() {
+        if (this.volume >= 10){
+            return this.volume = this.volume - 10;
         } else {
             return this.volume;
         }
     }
+
+
+
     /*
      - Create a water bottle class with a volume property.
      - The volume should start at 100.

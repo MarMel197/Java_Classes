@@ -11,9 +11,9 @@ public class WaterBottleTest {
         waterBottle = new WaterBottle(100, 10);
     }
     @Test
-    public void canTakeSip(){
-        assertEquals(90, waterBottle.takeSip());
-    }
+    public void canTakeDrink(){
+        assertEquals(90, waterBottle.takeDrink());
+}
 
     /*
     - Create a water bottle class with a volume property.
