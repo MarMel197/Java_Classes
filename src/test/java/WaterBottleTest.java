@@ -1,6 +1,8 @@
 import org.junit.Before;
 import org.junit.Test;
 
+import static org.junit.Assert.assertEquals;
+
 public class WaterBottleTest {
     WaterBottle waterBottle;
 
@@ -12,6 +14,7 @@ public class WaterBottleTest {
     public void canTakeSip(){
         assertEquals(90, waterBottle.takeSip());
     }
+
     /*
     - Create a water bottle class with a volume property.
     - The volume should start at 100.
