@@ -15,6 +15,10 @@ public class Calculator {
         return this.intNum1 + this.intNum2;
     }
 
+    public int subtractNumbers() {
+        return this.intNum1 - this.intNum2;
+    }
+
 
     /*
      Create a Calculator class. This should have functions for Add, Subtract, Multiply and Divide.
