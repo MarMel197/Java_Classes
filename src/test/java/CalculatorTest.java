@@ -15,6 +15,10 @@ public class CalculatorTest {
         public void canAddNumbers(){
                 assertEquals(20, calculator.addNumbers());
         }
+        @Test
+        public void canSubtractNumbers(){
+                assertEquals(4, calculator.subtractNumbers());
+        }
 
     /*
      Create a Calculator class. This should have functions for Add, Subtract, Multiply and Divide.
