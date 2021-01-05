@@ -23,6 +23,10 @@ public class Calculator {
         return this.intNum1 * this.intNum2;
     }
 
+    public double divideNumbers() {
+        return this.dblNum1 / this.dblNum2;
+    }
+
 
     /*
      Create a Calculator class. This should have functions for Add, Subtract, Multiply and Divide.
