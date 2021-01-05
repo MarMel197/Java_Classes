@@ -23,6 +23,10 @@ public class CalculatorTest {
         public void canMultiplyNumbers(){
                 assertEquals(96, calculator.multiplyNumbers());
         }
+        @Test
+        public void canDivideNumbers(){
+                assertEquals(1.44, calculator.divideNumbers());
+        }
 
     /*
      Create a Calculator class. This should have functions for Add, Subtract, Multiply and Divide.
