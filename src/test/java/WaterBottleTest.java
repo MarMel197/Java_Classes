@@ -1,4 +1,5 @@
 import org.junit.Before;
+import org.junit.Test;
 
 public class WaterBottleTest {
     WaterBottle waterBottle;
@@ -6,6 +7,10 @@ public class WaterBottleTest {
     @Before
     public void setUp(){
         waterBottle = new WaterBottle(100, 10);
+    }
+    @Test
+    public void canTakeSip(){
+        assertEquals(90, waterBottle.takeSip());
     }
     /*
     - Create a water bottle class with a volume property.
