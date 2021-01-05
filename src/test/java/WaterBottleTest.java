@@ -13,7 +13,15 @@ public class WaterBottleTest {
     @Test
     public void canTakeDrink(){
         assertEquals(90, waterBottle.takeDrink());
-}
+    }
+    @Test
+    public void canEmptyBottle(){
+        assertEquals(0, waterBottle.emptyBottle());
+    }
+    @Test
+    public void canFillBottle(){
+        assertEquals(100, waterBottle.fillBottle());
+    }
 
     /*
     - Create a water bottle class with a volume property.
