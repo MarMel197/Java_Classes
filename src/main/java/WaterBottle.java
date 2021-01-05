@@ -1,12 +1,10 @@
 public class WaterBottle {
-    private int volume = 100;
-    private int sipDrink = 10;
-    private int volumeDifference;
+    private int volume;
+    private int sipDrink;
 
-    public WaterBottle(int volume, int sipDrink, int volumeDifference){
+    public WaterBottle(int volume, int sipDrink){
         this.volume = volume;
         this.sipDrink = sipDrink;
-        this.volumeDifference = volumeDifference;
     }
     /*
      - Create a water bottle class with a volume property.
