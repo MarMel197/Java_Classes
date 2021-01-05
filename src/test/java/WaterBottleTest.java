@@ -8,7 +8,7 @@ public class WaterBottleTest {
 
     @Before
     public void setUp(){
-        waterBottle = new WaterBottle(100, 10);
+        waterBottle = new WaterBottle(100);
     }
     @Test
     public void canTakeDrink(){

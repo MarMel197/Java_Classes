@@ -1,22 +1,21 @@
 public class WaterBottle {
     private int volume;
-    private int sipDrink;
 
-    public WaterBottle(int volume, int sipDrink){
+
+    public WaterBottle(int volume){
         this.volume = volume;
-        this.sipDrink = sipDrink;
     }
 
     public int takeDrink() {
-        if (this.volume >= 10){
-            return this.volume = this.volume - 10;
-        } else {
-            return this.volume;
-        }
+        return this.volume = this.volume - 10;
     }
 
     public int emptyBottle() {
         return this.volume = 0;
+    }
+
+    public int fillBottle() {
+        return this.volume = 100;
     }
 
 
