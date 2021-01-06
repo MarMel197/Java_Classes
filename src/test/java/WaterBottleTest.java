@@ -17,6 +17,7 @@ public class WaterBottleTest {
     }
     @Test
     public void canTakeAnotherDrink(){
+        waterBottle.takeDrink();
         assertEquals(80, waterBottle.takeDrink());
     }
     @Test
